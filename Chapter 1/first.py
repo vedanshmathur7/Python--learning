@@ -2,13 +2,13 @@ print("Hello world")
 n = 56
 print (n)
 
-import pyjokes
+import pyjokes #pip install pyjokes
 joke = pyjokes.get_joke()
 print (joke)
 
 import pyttsx3
 engine = pyttsx3.init()
-engine.say("Madarchod behn ke lunnd")
+engine.say("opoopo")
 engine.runAndWait()
 
 # import emoji
