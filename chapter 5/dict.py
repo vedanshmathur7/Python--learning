@@ -22,6 +22,10 @@ print (champal["namak"]) #throws a keyerror no key found
 print (champal.popitem()) #prints the last inserted key-value pair as a tuple
 print (champal.pop("marks"))
 
+print("chappppppppppppp")
+print (len(champal))
+print("chappppppppppppp")
+
 print(champal)
 
 rajesh = champal.copy()
