@@ -1,25 +1,19 @@
 class Employee:
     def __init__(self):
-        print("Constructor of Employee")
-    a = 1 
+        print("Hello bhai")
 
 class Programmer(Employee):
     def __init__(self):
-        print("Constructor of Programmer")
-    b = 2 
+        super().__init__()
+        print("Khelo INDIA")
 
-class Manager(Programmer):
+class Vedansh(Programmer):
     def __init__(self):
         super().__init__()
-        print("Constructor of Manager")
-    c = 3
+        print("Mera desh mahaan !")
 
-o = Employee()
-print(o.a) # Prints the a attribute 
+    def haal_gabru_da(self):
+        print("Haal gabru da poochhta sahi")
 
-o = Programmer()
-print(o.a, o.b)
-
-
-o = Manager()
-
+op = Vedansh()
+op.haal_gabru_da()
