@@ -1,8 +1,5 @@
 a= '''
-Vedansh Mathur loves Tejaswi Khandelwal !
-so this is my story 
-that has started now !!
-and will never end i guess ;)
+hello guuys ;)
 '''
 
 f = open ("myfiles.txt" , "a") #a is for appending / adding
